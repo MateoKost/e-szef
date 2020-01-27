@@ -1,0 +1,22 @@
+.Box{
+    -fx-border-style:solid;
+    -fx-border-color:#73693B;
+    -fx-border-width: 2;
+}
+
+.BoxDescription{
+    -fx-background-color:#F7EFC8;
+    -fx-border-style: solid;
+    -fx-text-fill: #261105;
+}
+
+.Bath{
+    -fx-background-color:  #C4D1E5;
+}
+
+
+
+
+
+
+

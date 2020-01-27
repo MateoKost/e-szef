@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="300.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="name" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="118.109375">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fx:id="lastname" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fx:id="email" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fx:id="company" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

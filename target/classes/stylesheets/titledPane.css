@@ -1,0 +1,32 @@
+.titled-pane {
+    -fx-effect: dropshadow(three-pass-box, #9F9F9F, 15, 0, 0, 0);
+    -fx-animated: true;
+    -fx-text-fill: #505050;
+}
+
+
+
+.titled-pane:focused > .title > .arrow-button .arrow {
+    /* do not highlight the title pane arrow on focus */
+    -fx-background-color: #606060;
+}
+
+.tree-cell:odd {
+    /* shade every other line in a tree view */
+    -fx-background-color: #EEEEEE;
+}
+
+.button {
+    /* buttons do not have rounded corners */
+    -fx-background-radius: 0, 0, 0, 0;
+}
+
+.menu-button {
+    /* the left side of the menu button is not rounded */
+    -fx-background-radius: 0 5 5 0, 0 5 5 0, 0 4 4 0, 0 3 3 0;	
+}
+
+.combo-box-base  {
+    /* the left side of the combo box is not rounded */
+    -fx-background-radius: 0 5 5 0, 0 5 5 0, 0 4 4 0, 0 3 3 0;	
+}

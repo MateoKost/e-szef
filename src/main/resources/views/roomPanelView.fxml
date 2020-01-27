@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:id="MainPanel" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Accordion fx:id="roomViewAccordion">
+         <panes>
+            <TitledPane fx:id="roomViewTitledPane" alignment="CENTER" animated="false" collapsible="false" text="Pomieszczenie nr ">
+               <content>
+                  <Accordion fx:id="roomContentAccordion">
+                     <panes>
+                        <TitledPane fx:id="roomEquipmentTitledPane" animated="false" text="Wyposażenie">
+                           <content>
+                              <ScrollPane>
+                                 <content>
+                                    <VBox fx:id="inventoryTableContainer" />
+                                 </content>
+                              </ScrollPane>
+                           </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Mieszkańcy">
+                           <content>
+                              <ScrollPane>
+                                 <content>
+                                    <VBox fx:id="soldiersInBox" />
+                                 </content>
+                              </ScrollPane>
+                           </content>
+                        </TitledPane>
+                     </panes>
+                  </Accordion>
+               </content>
+            </TitledPane>
+         </panes>
+      </Accordion>
+   </children>
+</VBox>

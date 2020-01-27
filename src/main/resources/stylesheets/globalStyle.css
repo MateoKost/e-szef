@@ -1,0 +1,58 @@
+.root{
+    -fx-font-size: 16;
+     -fx-text-fill: #D9CCC5;
+}
+
+.ChooseTab  .tab-label{
+    -fx-pref-width: 200px;
+
+   /* -fx-background-image: url("/resources/icons/max.png");*/
+    -fx-background-position: left;
+    -fx-alignment: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 10px,10px;
+   /* -fx-background-color: #807255;
+    -fx-text-fill: #FFE4AB;*/
+}
+
+#leftPanel .text{
+    -fx-fill: #D9CCC5;
+     -fx-text-fill: #D9CCC5;
+}
+
+#topPanel .text{
+    -fx-fill: #D9CCC5;
+    -fx-text-fill: #D9CCC5;
+     }
+
+
+
+.label{
+
+    -fx-text-fill:#D9CCC5;
+}
+
+.button{
+
+    -fx-text-fill: #D9CCC5;
+}
+
+.combo-box .list-cell
+{
+    -fx-background: #D9A577;
+    -fx-text-fill: #261105;
+}
+
+.combo-box .list-cell text
+{
+    -fx-background: #D9A577;
+    -fx-text-fill: #261105;
+}
+
+.jfx-button{
+     -fx-background-color:  #261105;
+}
+
+.jfx-text-field {
+    -fx-prompt-text-fill: #D9CCC5;
+}

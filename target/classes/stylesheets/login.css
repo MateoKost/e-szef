@@ -1,0 +1,24 @@
+.root{
+    -fx-background-color:#BF7F5A;
+
+}
+
+.text{
+-fx-fill:white;
+-fx-prompt-text-fill: white;
+-fx-font-weight:bold;
+}
+
+.jfx-text-field, .jfx-password-field{
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+}
+
+.hyperlink .text{
+    -fx-fill: #BF7F5A;
+}
+
+.jfx-button{
+    -fx-background-color:#400101;
+}
+.

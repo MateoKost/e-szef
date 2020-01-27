@@ -1,0 +1,65 @@
+.Box{
+    -fx-border-style:solid;
+    -fx-border-color:#73693B;
+    -fx-border-width: 2;
+}
+
+.BoxDescription{
+    -fx-background-color:#F7EFC8;
+    -fx-border-style: solid;
+
+}
+
+.StandardSoldierBox{
+    -fx-background-color: #F4E07D;
+}
+
+.Headquarter{
+    -fx-background-color: #6765A6;
+}
+
+.PlatoonCEO{
+    -fx-background-color: #88A3BF;
+}
+
+.HeadOfMaintenance{
+    -fx-background-color:  #A67E9C;
+}
+
+.Armoury{
+    -fx-background-color:  #BF88B3;
+}
+
+.Laundry{
+    -fx-background-color:  #FFA49E;
+}
+
+.Storage{
+    -fx-background-color:  #57A986;
+}
+
+.Bath{
+    -fx-background-color:  #C4D1E5;
+}
+
+.DutyDesk{
+    -fx-background-color: #828C63;
+    -fx-border-style:null;
+}
+
+.DutyDesk .label{
+    -fx-background-color: #ABA257;
+}
+
+.Staircase{
+    -fx-background-color:#736F5D;
+}
+
+.label{
+    -fx-text-fill:black;
+}
+
+
+
+
+

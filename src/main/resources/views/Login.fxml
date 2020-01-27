@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="425.0" prefWidth="667.0" stylesheets="@../stylesheets/login.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.controllers.LoginController">
+   <children>
+      <VBox alignment="CENTER" layoutX="227.0" layoutY="-2.0" prefHeight="427.0" prefWidth="353.0" style="-fx-background-color: #261105;" AnchorPane.rightAnchor="40.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" prefHeight="61.0" prefWidth="417.0" style="-fx-font-size: 35;" text="Logowanie" textAlignment="CENTER">
+               <font>
+                  <Font name="Bodoni MT Bold" size="39.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="20.0" />
+               </padding>
+            </Label>
+            <JFXTextField fx:id="email" alignment="CENTER" focusColor="#d9a577" prefHeight="69.0" prefWidth="10.0" promptText="Wprowadź email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" alignment="CENTER" focusColor="#d9a577" prefHeight="69.0" prefWidth="185.0" promptText="Wprowadź hasło">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXPasswordField>
+            <Hyperlink onAction="#registrationForm" prefHeight="48.0" prefWidth="157.0" text="Nie masz konta? Zarejestruj sie tutaj" textAlignment="CENTER" textFill="#830000" wrapText="true">
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </Hyperlink>
+            <JFXButton fx:id="btn" onAction="#login" prefHeight="25.0" prefWidth="157.0" text="Zaloguj się">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font></JFXButton>
+            <Label fx:id="warning" alignment="CENTER" prefHeight="18.0" prefWidth="294.0" text="Błędny login lub hasło!" textFill="#d70c0c" visible="false" />
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </VBox>
+      <ImageView fitHeight="236.0" fitWidth="231.0" layoutX="24.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <JFXProgressBar fx:id="pi" layoutX="24.0" layoutY="352.0" prefHeight="12.0" prefWidth="231.0" visible="false" />
+   </children>
+</AnchorPane>
